@@ -1,0 +1,3 @@
+C:/Users/chris_i1piao2/CLionProjects/tadAgenda/cmake-build-debug/CMakeFiles/tadAgenda.dir
+C:/Users/chris_i1piao2/CLionProjects/tadAgenda/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/chris_i1piao2/CLionProjects/tadAgenda/cmake-build-debug/CMakeFiles/rebuild_cache.dir

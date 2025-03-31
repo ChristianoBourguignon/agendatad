@@ -1,0 +1,11 @@
+# ninja log v6
+16	97	7651547285574790	CMakeFiles/tadAgenda.dir/main.c.obj	102890e8d687f030
+100	267	7651547197040347	tadAgenda.exe	9e018bf7ee2a793b
+11	144	7651547617646489	CMakeFiles/tadAgenda.dir/compromisso.c.obj	4128bcc8ed47df15
+22	152	7651547617756526	CMakeFiles/tadAgenda.dir/horario.c.obj	3450c576e00fb9f
+5	153	7651547617586483	CMakeFiles/tadAgenda.dir/agenda.c.obj	6e25692aaa6c4074
+16	153	7651547617696498	CMakeFiles/tadAgenda.dir/data.c.obj	ebf35467d92310fa
+27	154	7651547617806537	CMakeFiles/tadAgenda.dir/timestamp.c.obj	3cae56345dce63d5
+154	256	7651547619076835	tadAgenda.exe	58b9ee1823489ea0
+12	101	7651547986651564	CMakeFiles/tadAgenda.dir/main.c.obj	102890e8d687f030
+101	213	7651547987551708	tadAgenda.exe	58b9ee1823489ea0
