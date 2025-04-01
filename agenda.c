@@ -48,7 +48,10 @@ void listarCompromissos(Agenda *agenda){
 
 //Remove um compromisso da agenda.
 void removerCompromisso(Agenda *agenda, int indice){
-    destruirCompromisso(agenda->compromissos[indice]);
+    int tam = agenda->tamanho;
+    destruirCompromisso(agenda->compromissos[indice-1]);
+    agenda->compromissos[indice-1] = agenda->compromissos[tam-1];
+    agenda->tamanho -= 1;
 }
 
 //Busca compromissos em uma data específica.

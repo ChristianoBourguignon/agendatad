@@ -33,18 +33,20 @@ int main()
     c3 = criarCompromisso(3,1,2002,00,30,"Aula Online");
     c4 = criarCompromisso(4,1,2002,00,30,"Aula Online");
     c5 = criarCompromisso(5,1,2002,00,30,"Aula Online");
-    c6 = criarCompromisso(6,1,2002,00,30,"Aula Online");
+    //c6 = criarCompromisso(6,1,2002,00,30,"Aula Online");
     a1 = criarAgenda(5);
     adicionarCompromisso(a1,c1);
     adicionarCompromisso(a1,c2);
     adicionarCompromisso(a1,c3);
     adicionarCompromisso(a1,c4);
     adicionarCompromisso(a1,c5);
-    adicionarCompromisso(a1,c6);
+    //adicionarCompromisso(a1,c6);
     //listarCompromissos(a1);
     removerCompromisso(a1,2);
     listarCompromissos(a1);
-
+    printf("\nCompromissos:\n");
+    //adicionarCompromisso(a1,c2);
+    //listarCompromissos(a1);
 
 
 
