@@ -55,8 +55,16 @@ void removerCompromisso(Agenda *agenda, int indice){
 }
 
 //Busca compromissos em uma data específica.
-void consultarCompromissosPorData(Agenda *agenda, int dia, int mes, int ano);
+void consultarCompromissosPorData(Agenda *agenda, int dia, int mes, int ano) {
+    for (int i = 0; i < agenda->tamanho; i++) {
+        if(agenda->compromissos[i]->timestamp->data->dia == dia && agenda->compromissos[i]->timestamp->data->mes == mes && agenda->compromissos[i]->timestamp->data->ano == ano ) {
+            imprimirCompromisso(agenda->compromissos[i]);
+        }
+    }
+}
 
 //Permite adiar ou antecipar um compromisso.
 void alterarHorarioCompromisso(Agenda *agenda, int indice, int
-minutos, int adiar);
+minutos, int adiar) {
+
+}

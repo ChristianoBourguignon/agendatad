@@ -47,6 +47,7 @@ int main()
     printf("\nCompromissos:\n");
     //adicionarCompromisso(a1,c2);
     //listarCompromissos(a1);
+    consultarCompromissosPorData(a1,5,1,2002);
 
 
 
